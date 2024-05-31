@@ -11,8 +11,6 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    grid-gap: 20px;
-    overflow-y: auto;
 }
 nav #flipkart{
     position: relative;
@@ -21,7 +19,7 @@ nav #flipkart{
 }
 nav #navInput{
     position: relative;
-    width: 550px;
+    width: 40%;
     height: 40px;
     border-radius: 8px;
     border: hidden;
@@ -29,6 +27,24 @@ nav #navInput{
     font-size: 18px;
     padding-left: 45px;
     outline: none;
+}
+#menu-con{
+  position: relative;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 20px;
+  
+}
+#menu-con-slide{
+  position: relative;
+  display: flex;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 20px;
+  overflow: hidden;
 }
 nav #search{
     position: relative;
