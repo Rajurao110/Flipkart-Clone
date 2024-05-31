@@ -19,7 +19,7 @@ nav #flipkart{
 }
 nav #navInput{
     position: relative;
-    width: 200px;
+    width: 40%;
     height: 40px;
     border-radius: 8px;
     border: hidden;
